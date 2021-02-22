@@ -1,0 +1,7 @@
+.moyen_de_contact img{
+	width: 5px;
+}
+.formulaire_de_contact{
+	display: flex;
+	flex-direction: column;
+}

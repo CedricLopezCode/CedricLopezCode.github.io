@@ -1,0 +1,38 @@
+nav{
+	background: green;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+	text-align: center;
+	flex-wrap: wrap;
+	height: auto;
+}
+nav a{
+	text-decoration: none;
+	color: springgreen;
+	font-weight: bold;
+	font-size: 25px;
+}
+nav a img{
+	width: 30px;
+}
+
+.page_active{
+	background: lime;
+	color: green;
+}
+/*
+@media only screen and (max-device-width: 320px) {
+	nav a span {display: none;}
+} 
+@media only screen and (min-device-width: 321px) and (max-device-width: 820px){
+	nav {height: 120px;}
+	nav a {
+		width: 50%;
+		text-align: center;
+	}
+}
+@media only screen and (min-device-width: 821px) {
+	
+}*/

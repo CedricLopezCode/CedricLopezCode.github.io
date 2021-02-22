@@ -1,0 +1,70 @@
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+
+<section class="contacte">
+	<div class="moyen_de_contact">
+		<a
+			href="tel:+33678117101">
+			<img src="src_ico/22011-bubka-mobiletelephone_vista.ico">
+		</a>
+		<a
+			href="mailto:cedric-lopez@hotmail.fr">
+			<img src="src_ico/19783-bubka-Forward_vista.ico">
+		</a>
+	</div>
+
+	<p class="ou">Ou</p>
+	<form class="formulaire_de_contact">
+		<label>Nom :</label>
+		<input type="text" name="nom" required>
+
+		<label>Prénom :</label>
+		<input type="text" name="prenom" required>
+
+		<label>Téléphone :</label>
+		<input type="num" name="nom" required>
+
+		<label>Email :</label>
+		<input type="email" name="nom" required>
+
+		<label>Votre message: </label>
+		<textarea rows="10" cols="100" required></textarea>
+
+		<input id="submit" class="btn btn-success" type="submit" name="submit" value="Envoyer">
+	</form>
+	<script type="text/javascript">
+		var formulaire = $("#formulaire_de_contact");
+		$(formulaire).submit(verif_formulaire);
+
+		function verif_formulaire(){
+			verif_input();
+			verif_textarea();
+			return false;
+		}
+		function verif_input(){
+			var les_inputs = $('input');
+			console.log(les_inputs);
+			for(var index = 0; index < les_inputs.length; index++){
+				$(les_inputs[index]).val() == ""? $(les_inputs[index]).css("background", "red") : $(les_inputs[index]).css("background", "lime");
+			}
+			verif_email();
+		}
+		function verif_email(){
+			var les_inputs = $('input');
+			var regex_email = /([a-zA-Z0-9\_\-\*\.\,\;\:\+])+\@([a-zA-Z0-9\_\-\*\.\,\;\:\+])+(\.)+([a-zA-Z])/;
+			console.log(regex_email.test($(les_inputs[3]).val()));
+			if(regex_email.test($(les_inputs[3]).val())){
+				$(les_inputs[3]).css("background", "lime");
+			}else if($(les_inputs[3]).val() == ""){
+				$(les_inputs[3]).css("background", "red");
+			}
+			else{
+				$(les_inputs[3]).css("background", "yellow");
+			}
+		}
+
+		function verif_textarea(){
+			var textarea = $('textarea');
+			$(textarea).val() == ""? $(textarea).css("background", "red") : $(textarea).css("background", "lime");
+		}
+	</script>
+</section>
