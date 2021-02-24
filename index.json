@@ -55,6 +55,12 @@
 			"deja_etudie": 1
 		},
 		{
+			"skill": "mysql",
+			"maitrise": 30,
+			"image": "src_ico/mysql.ico",
+			"deja_etudie": 1
+		},
+		{
 			"skill": "c",
 			"maitrise": 50,
 			"image": "src_ico/file_type_cpp_icon_130670.ico",
