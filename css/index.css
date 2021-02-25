@@ -3,8 +3,8 @@ body{
 	color: white;
 	font-size: 20px;
 	font-family: "arial";
+	overflow-x: hidden;
 }
-
 /*---------------------------Navbar CSS-----------------------------------*/
 nav{
 	background: green;
@@ -18,7 +18,7 @@ nav{
 }
 nav a{
 	text-decoration: none;
-	color: lawngreen;
+	color: aqua;
 	font-weight: bold;
 	font-size: 25px;
 	padding: 5px;
@@ -28,28 +28,14 @@ nav a img{
 }
 nav a:hover{
 	text-decoration: none;
-	color: lime;
+	color: red;
 	transition: 2s;
-	transform: scale(1.5);
+	transform: scale(1.2);
 }
 .page_active{
-	background: lime;
-	color: green;
+	background: forestgreen;
+	color: red;
 }
-/*
-@media only screen and (max-device-width: 320px) {
-	nav a span {display: none;}
-} 
-@media only screen and (min-device-width: 321px) and (max-device-width: 820px){
-	nav {height: 120px;}
-	nav a {
-		width: 50%;
-		text-align: center;
-	}
-}
-@media only screen and (min-device-width: 821px) {
-	
-}*/
 /*----------------------------------------------------------------------*/
 .description_generale h1{
 	margin: 100px 0 30px;
@@ -62,7 +48,6 @@ nav a:hover{
 	font-weight: bold;
 	color: chartreuse;
 }
-
 .container{
 	margin-bottom: 100px;
 }
@@ -81,7 +66,7 @@ footer{
 }
 footer a{
 	text-decoration: none;
-	color: lime;
+	color: aqua;
 	font-weight: bold;
 	font-size: 25px;
 }
@@ -90,8 +75,22 @@ footer a img{
 }
 footer a:hover{
 	text-decoration: none;
-	color: lime;
+	color: red;
 	transition: 2s;
 	transform: scale(1.2); 
 }
 /*----------------------------------------------------------------------*/
+/* Nav bar sans bootstrap
+@media only screen and (max-device-width: 320px) {
+	nav a span {display: none;}
+} 
+@media only screen and (min-device-width: 321px) and (max-device-width: 820px){
+	nav {height: 120px;}
+	nav a {
+		width: 50%;
+		text-align: center;
+	}
+}
+@media only screen and (min-device-width: 821px) {
+	
+}*/

@@ -1,7 +1,7 @@
 body{
-	background-image: url(../src_ico/21850-bubka-colba_vista.ico);
-	background-size: 400px;
-	/*background-size: cover;*/
+	background-image: url(../src_img/tableau_periodique_moderne.png);	/*chemistry-740453_1920.jpg*/
+	background-size: 100%;
+	background-color: darkgray;
 }
 .description_chimie{ 
 	display: flex;
@@ -15,7 +15,11 @@ body{
 .titre_article{
 	font-size: 50px;
 	font-weight: bold;
-	color: springgreen;
+	color: red;
+}
+#ingenieur{
+	font-size: 30px;
+	color: aqua;
 }
 .titre_section{
 	margin: 20px 0;

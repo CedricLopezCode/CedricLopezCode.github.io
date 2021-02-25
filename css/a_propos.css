@@ -1,6 +1,15 @@
-
 .commentaire{
 	color: gray;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 25px;
+	font-family: "arial black";
+}
+#pas_bug{
+	 padding-left: 250px;
+}
+#mais_css{
+	 padding-left: 80px;
 }
 .bleu{
 	color: mediumturquoise;
@@ -8,10 +17,10 @@
 .rouge{
 	color: red;
 }
-.jaune{
-	color: yellow;
+.aquaa{
+	color: aqua;
 }
-.lime{
+.vert{
 	color: lime;
 }
 .XXXX{

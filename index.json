@@ -15,7 +15,7 @@
 		{
 			"skill": "git_hub",
 			"maitrise": 100,
-			"image": "src_ico/logo_github_icon_143196.ico",
+			"image": "src_ico/github_original_wordmark_logo_icon_146506.ico",
 			"deja_etudie": 1
 		},
 		{
@@ -27,7 +27,7 @@
 		{
 			"skill": "js",
 			"maitrise": 90,
-			"image": "src_ico/javascript_icon_130900.ico",
+			"image": "src_ico/javascript.ico",
 			"deja_etudie": 1
 		},
 		{
@@ -44,26 +44,32 @@
 		},
 		{
 			"skill": "ajax",
-			"maitrise": 40,
+			"maitrise": 50,
 			"image": "src_ico/téléchargement.ico",
 			"deja_etudie": 1
 		},
 		{
 			"skill": "algo",
 			"maitrise": 100,
-			"image": "src_ico/checklist_102320.ico",
+			"image": "src_ico/Algo1.jpg",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "mysql",
+			"maitrise": 30,
+			"image": "src_ico/mysql.ico",
 			"deja_etudie": 1
 		},
 		{
 			"skill": "c",
-			"maitrise": 50,
+			"maitrise": 40,
 			"image": "src_ico/file_type_cpp_icon_130670.ico",
 			"deja_etudie": 1
 		},
 		{
 			"skill": "kotlin",
-			"maitrise": 20,
-			"image": "src_ico/kotlin.ico",
+			"maitrise": 30,
+			"image": "src_ico/kotlin.jpg",
 			"deja_etudie": 1
 		},
 		{
@@ -111,7 +117,7 @@
 		{
 			"skill": "angular",
 			"maitrise": 0,
-			"image": "src_ico/angular_logo_icon_169595.ico",
+			"image": "src_ico/angular.ico",
 			"deja_etudie": 0
 		}
 	]
