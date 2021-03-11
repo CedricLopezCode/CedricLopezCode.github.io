@@ -74,9 +74,9 @@
 		},
 		{
 			"skill": "mersise",
-			"maitrise": 0,
+			"maitrise": 80,
 			"image": "src_ico/ob_45c694_merise.ico",
-			"deja_etudie": 0
+			"deja_etudie": 1
 		},
 		{
 			"skill": "java",
