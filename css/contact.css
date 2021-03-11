@@ -12,6 +12,10 @@
 	font-size: 40px;
 	color: lime;
 }
+.formation_pas_finie{
+	font-size: 40px;
+	color: red;
+}
 .formulaire_de_contact{
 	display: flex;
 	flex-direction: column;
