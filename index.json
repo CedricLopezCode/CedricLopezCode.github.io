@@ -49,6 +49,36 @@
 			"deja_etudie": 1
 		},
 		{
+			"skill": "algo",
+			"maitrise": 100,
+			"image": "src_ico/Algo1.jpg",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "git_hub",
+			"maitrise": 100,
+			"image": "src_ico/github_original_wordmark_logo_icon_146506.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "git",
+			"maitrise": 70,
+			"image": "src_ico/git_plain_wordmark_logo_icon_146508.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "c",
+			"maitrise": 40,
+			"image": "src_ico/file_type_cpp_icon_130670.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "kotlin",
+			"maitrise": 30,
+			"image": "src_ico/kotlin.jpg",
+			"deja_etudie": 1
+		},
+		{
 			"skill": "java",
 			"maitrise": 0,
 			"image": "src_ico/java_src_logo_icon_170556.ico",
@@ -89,36 +119,6 @@
 			"maitrise": 0,
 			"image": "src_ico/angular.ico",
 			"deja_etudie": 0
-		},
-		{
-			"skill": "algo",
-			"maitrise": 100,
-			"image": "src_ico/Algo1.jpg",
-			"deja_etudie": 1
-		},
-		{
-			"skill": "git_hub",
-			"maitrise": 100,
-			"image": "src_ico/github_original_wordmark_logo_icon_146506.ico",
-			"deja_etudie": 1
-		},
-		{
-			"skill": "git",
-			"maitrise": 70,
-			"image": "src_ico/git_plain_wordmark_logo_icon_146508.ico",
-			"deja_etudie": 1
-		},
-		{
-			"skill": "c",
-			"maitrise": 40,
-			"image": "src_ico/file_type_cpp_icon_130670.ico",
-			"deja_etudie": 1
-		},
-		{
-			"skill": "kotlin",
-			"maitrise": 30,
-			"image": "src_ico/kotlin.jpg",
-			"deja_etudie": 1
 		}
 	]
 }
