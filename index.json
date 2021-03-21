@@ -44,8 +44,14 @@
 		},
 		{
 			"skill": "merise",
-			"maitrise": 80,
+			"maitrise": 90,
 			"image": "src_ico/ob_45c694_merise.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "java",
+			"maitrise": 50,
+			"image": "src_ico/java_src_logo_icon_170556.ico",
 			"deja_etudie": 1
 		},
 		{
@@ -77,12 +83,6 @@
 			"maitrise": 30,
 			"image": "src_ico/kotlin.jpg",
 			"deja_etudie": 1
-		},
-		{
-			"skill": "java",
-			"maitrise": 0,
-			"image": "src_ico/java_src_logo_icon_170556.ico",
-			"deja_etudie": 0
 		},
 		{
 			"skill": "jsp",
