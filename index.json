@@ -32,13 +32,13 @@
 		},
 		{
 			"skill": "ajax",
-			"maitrise": 50,
+			"maitrise": 60,
 			"image": "src_ico/téléchargement.ico",
 			"deja_etudie": 1
 		},
 		{
 			"skill": "mysql",
-			"maitrise": 70,
+			"maitrise": 100,
 			"image": "src_ico/mysql.ico",
 			"deja_etudie": 1
 		},
@@ -50,8 +50,14 @@
 		},
 		{
 			"skill": "java",
-			"maitrise": 50,
+			"maitrise": 70,
 			"image": "src_ico/java_src_logo_icon_170556.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "servlet",
+			"maitrise": 60,
+			"image": "src_ico/servlets.ico",
 			"deja_etudie": 1
 		},
 		{
@@ -88,12 +94,6 @@
 			"skill": "jsp",
 			"maitrise": 0,
 			"image": "src_ico/file_type_jsp_icon_130498.ico",
-			"deja_etudie": 0
-		},
-		{
-			"skill": "servlet",
-			"maitrise": 0,
-			"image": "src_ico/servlets.ico",
 			"deja_etudie": 0
 		},
 		{
