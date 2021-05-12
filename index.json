@@ -49,9 +49,21 @@
 			"deja_etudie": 1
 		},
 		{
+			"skill": "uml",
+			"maitrise": 50,
+			"image": "src_ico/uml-tutorial.ico",
+			"deja_etudie": 1
+		},
+		{
 			"skill": "java",
 			"maitrise": 70,
 			"image": "src_ico/java_src_logo_icon_170556.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "jsp",
+			"maitrise": 100,
+			"image": "src_ico/file_type_jsp_icon_130498.ico",
 			"deja_etudie": 1
 		},
 		{
@@ -89,18 +101,6 @@
 			"maitrise": 30,
 			"image": "src_ico/kotlin.jpg",
 			"deja_etudie": 1
-		},
-		{
-			"skill": "jsp",
-			"maitrise": 0,
-			"image": "src_ico/file_type_jsp_icon_130498.ico",
-			"deja_etudie": 0
-		},
-		{
-			"skill": "uml",
-			"maitrise": 0,
-			"image": "src_ico/uml-tutorial.ico",
-			"deja_etudie": 0
 		},
 		{
 			"skill": "mvc",

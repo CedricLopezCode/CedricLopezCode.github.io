@@ -48,9 +48,11 @@ function afficher_un_skill(data, index, division){
 	var canvas = $('canvas')[index];
 
 	var context = canvas.getContext('2d');
-	if(data.competences[index].maitrise > 70){
+	if(data.competences[index].maitrise >= 80){
 		context.fillStyle = "lime";
-	}else if(data.competences[index].maitrise >= 50){
+	}else if(data.competences[index].maitrise >= 60){
+		context.fillStyle = "yellow";
+	}else if(data.competences[index].maitrise >= 40){
 		context.fillStyle = "orange";
 	}else{
 		context.fillStyle = "red";
