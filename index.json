@@ -8,7 +8,7 @@
 		},
 		{
 			"skill": "css",
-			"maitrise": 80,
+			"maitrise": 100,
 			"image": "src_ico/css_plain_wordmark_logo_icon_146574.ico",
 			"deja_etudie": 1
 		},
@@ -20,7 +20,7 @@
 		},
 		{
 			"skill": "bootrap",
-			"maitrise": 100,
+			"maitrise": 90,
 			"image": "src_ico/bootstrap_plain_wordmark_logo_icon_146620.ico",
 			"deja_etudie": 1
 		},
@@ -56,7 +56,7 @@
 		},
 		{
 			"skill": "java",
-			"maitrise": 70,
+			"maitrise": 80,
 			"image": "src_ico/java_src_logo_icon_170556.ico",
 			"deja_etudie": 1
 		},
