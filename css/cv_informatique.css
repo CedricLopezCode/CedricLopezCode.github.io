@@ -49,8 +49,12 @@ body{
 #liste_futures img{
 	background: white;
 }
+#liste_projets{
+	flex-direction: column;
+	width: 50px;
+}
 #liste_projets img{
-	width:20px;
+	width: 50px;
 }
 #titre_competences_acquises, #titre_competences_futures, #titre_projets_perso{
 	background: green;
@@ -62,7 +66,7 @@ body{
 }
 #titre_projets_perso{
 	background: rgba(0, 255, 0, 0.2);
-	color: red;
+	color: lime;
 }
 #titre_competences_acquises{
 	background: rgba(255, 0, 0, 0.2);
@@ -73,7 +77,7 @@ body{
 	color: aqua;
 }
 .nom_projet{
-	font-size: 20px;
+	font-size: 30px;
 	color: lime;
 }
 #down_cv_pdf{
