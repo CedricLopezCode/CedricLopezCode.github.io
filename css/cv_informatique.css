@@ -39,10 +39,9 @@ body{
 
 
 }
-#liste_acquises, #liste_futures{
+#liste_acquises, #liste_futures, #liste_projets{
 	/*background-color: rgba(0, 128, 0, 0.9);*/
 	display: flex;
-	justify-content: space-around;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	margin: 20px 0 50px;
@@ -50,13 +49,20 @@ body{
 #liste_futures img{
 	background: white;
 }
-#titre_competences_acquises, #titre_competences_futures{
+#liste_projets img{
+	width:20px;
+}
+#titre_competences_acquises, #titre_competences_futures, #titre_projets_perso{
 	background: green;
 	font-weight: bold;
 	font-size: 40px;
 	color: lime;
 	padding: 10px;
 	text-align: center;
+}
+#titre_projets_perso{
+	background: rgba(0, 255, 0, 0.2);
+	color: red;
 }
 #titre_competences_acquises{
 	background: rgba(255, 0, 0, 0.2);
@@ -66,7 +72,10 @@ body{
 	background: rgba(0, 0, 255, 0.2);
 	color: aqua;
 }
-
+.nom_projet{
+	font-size: 20px;
+	color: lime;
+}
 #down_cv_pdf{
 	margin-bottom: 10px;
 }
