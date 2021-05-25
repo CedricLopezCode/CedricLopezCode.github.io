@@ -113,7 +113,60 @@ function afficher_projets(){
 				+data.projets[index].tech6+'"></data>'
 
 				+'</div>');
+
 		})
+		$(liste_projets).append('<div class="un_projet">'
+			+'<span class="nom_projet">'
+			+data.projets[0].nom + '</span>'
+
+			+'<data class="une_tech"><img src="'
+			+data.projets[0].tech1+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[0].tech2+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[0].tech3+'"></data>'
+
+		+'</div>');
+		$(liste_projets).append('<div class="un_projet">'
+			+'<span class="nom_projet">'
+			+data.projets[1].nom + '</span>'
+
+			+'<data class="une_tech"><img src="'
+			+data.projets[1].tech1+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[1].tech2+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[1].tech3+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[1].tech4+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[1].tech5+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[1].tech6+'"></data>'
+
+		+'</div>');
+		$(liste_projets).append('<div class="un_projet">'
+			+'<span class="nom_projet">'
+			+data.projets[2].nom + '</span>'
+
+			+'<data class="une_tech"><img src="'
+			+data.projets[2].tech1+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[2].tech2+'"></data>'
+
+		+'</div>');
+		$(liste_projets).append('<div class="un_projet">'
+			+'<span class="nom_projet">'
+			+data.projets[3].nom + '</span>'
+
+			+'<data class="une_tech"><img src="'
+			+data.projets[3].tech1+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[3].tech2+'"></data>'
+			+'<data class="une_tech"><img src="'
+			+data.projets[3].tech3+'"></data>'
+
+		+'</div>');
 
 	})
 	return false;
