@@ -51,7 +51,6 @@ body{
 }
 #liste_projets{
 	flex-direction: column;
-	width: 50px;
 }
 #liste_projets img{
 	width: 50px;
