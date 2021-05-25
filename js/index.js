@@ -21,6 +21,7 @@ function changer_contenu(){
 			$(".container").append(data);
 			//console.log(this.url);
 			this.url == "html/cv_informatic.html"?afficher_tous_les_skills():"";
+			this.url == "html/cv_informatic.html"?afficher_projets():"";
 		},
 		error:function(xhr){
 			console.log(xhr.status);
@@ -81,7 +82,7 @@ function changer_projets(){
 			$(".container").empty();
 			$(".container").append(data);
 			//console.log(this.url);
-			this.url == "html/cv_informatic.html"?afficher_projet():"";
+			this.url == "html/cv_informatic.html"?afficher_projets():"";
 		},
 		error:function(xhr){
 			console.log(xhr.status);
@@ -89,7 +90,7 @@ function changer_projets(){
 	});
 	return false;
 }
-function afficher_projet(){
+function afficher_projets(){
 	var json = "index.json"
 	var liste_projets = $("#liste_projets");
 	$.get(json, function(data){
