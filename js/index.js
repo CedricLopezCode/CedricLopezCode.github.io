@@ -70,6 +70,53 @@ function afficher_un_skill(data, index, division){
 
 	return false;
 }
+function changer_projets(){
+	$(this).siblings().removeClass("page_active");
+	$(this).addClass("page_active");
+	$.ajax({
+		url: $(this).attr("href"),
+		dataType: "html",
+		success: function(data){
+			//console.log(data);
+			$(".container").empty();
+			$(".container").append(data);
+			//console.log(this.url);
+			this.url == "html/cv_informatic.html"?afficher_projet():"";
+		},
+		error:function(xhr){
+			console.log(xhr.status);
+		}
+	});
+	return false;
+}
+function afficher_projet(){
+	var json = "index.json"
+	var liste_projets = $("#liste_projets");
+	$.get(json, function(data){
+		$(data.projet).each(function(index){
+			$(division).append('<div class="un_projet">'
+				+'<div class="nom_projet">'
+				+data.projets[index].nom + '</div>'
+
+				+'<data class="une_tech"><img src="'
+				+data.projets[index].tech1+'"></data>'
+				+'<data class="une_tech"><img src="'
+				+data.projets[index].tech2+'"></data>'
+				+'<data class="une_tech"><img src="'
+				+data.projets[index].tech3+'"></data>'
+				+'<data class="une_tech"><img src="'
+				+data.projets[index].tech4+'"></data>'
+				+'<data class="une_tech"><img src="'
+				+data.projets[index].tech5+'"></data>'
+				+'<data class="une_tech"><img src="'
+				+data.projets[index].tech6+'"></data>'
+
+				+'</div>');
+		})
+
+	})
+	return false;
+}
 function afficher_un_skillbis(data, index, division){
 	$(division).append('<canvas id="canvas_'+index+'" width="200" height="200"></canvas>');
 	var canvas = $('canvas')[index];

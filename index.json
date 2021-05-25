@@ -120,5 +120,33 @@
 			"image": "src_ico/angular.ico",
 			"deja_etudie": 0
 		}
+	],
+	"projets" : [ 
+		{
+			"nom": "Site de révision",
+			"tech1": "src_ico/html_plain_wordmark_logo_icon_146476.ico",
+			"tech2": "src_ico/css_plain_wordmark_logo_icon_146574.ico",
+			"tech3": "src_ico/javascript.ico"
+		},
+		{
+			"nom": "Portfolio",
+			"tech1": "src_ico/html_plain_wordmark_logo_icon_146476.ico",
+			"tech2": "src_ico/css_plain_wordmark_logo_icon_146574.ico",
+			"tech3": "src_ico/javascript.ico",
+			"tech4": "src_ico/bootstrap_plain_wordmark_logo_icon_146620.ico",
+			"tech5": "src_ico/jquery_plain_wordmark_logo_icon_146445.ico",
+			"tech6": "src_ico/téléchargement.ico"
+		},
+		{
+			"nom": "Jeux de Morpion & Sudoku",
+			"tech1": "src_ico/java_src_logo_icon_170556.ico",
+			"tech2": "src_ico/mysql.ico"
+		},
+		{
+			"nom": "Site de eCommerce en groupe",
+			"tech1": "src_ico/create-jsp-servlet-webpages.ico",
+			"tech2": "src_ico/mysql.ico",
+			"tech3": "src_ico/css_plain_wordmark_logo_icon_146574.ico"
+		}
 	]
 }
