@@ -93,7 +93,7 @@ function afficher_projet(){
 	var json = "index.json"
 	var liste_projets = $("#liste_projets");
 	$.get(json, function(data){
-		$(data.projet).each(function(index){
+		$(data.projets).each(function(index){
 			$(division).append('<div class="un_projet">'
 				+'<div class="nom_projet">'
 				+data.projets[index].nom + '</div>'
