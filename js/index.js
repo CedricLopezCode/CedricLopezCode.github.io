@@ -96,8 +96,8 @@ function afficher_projets(){
 	$.get(json, function(data){
 		$(data.projets).each(function(index){
 			$(liste_projets).append('<div class="un_projet">'
-				+'<div class="nom_projet">'
-				+data.projets[index].nom + '</div>'
+				+'<span class="nom_projet">'
+				+data.projets[index].nom + '</span>'
 
 				+'<data class="une_tech"><img src="'
 				+data.projets[index].tech1+'"></data>'
