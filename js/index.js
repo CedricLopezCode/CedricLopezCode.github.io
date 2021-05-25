@@ -94,7 +94,7 @@ function afficher_projets(){
 	var json = "index.json"
 	var liste_projets = $("#liste_projets");
 	$.get(json, function(data){
-		$(data.projets).each(function(index){
+		/*$(data.projets).each(function(index){
 			$(liste_projets).append('<div class="un_projet">'
 				+'<span class="nom_projet">'
 				+data.projets[index].nom + '</span>'
@@ -114,7 +114,7 @@ function afficher_projets(){
 
 				+'</div>');
 
-		})
+		})*/
 		$(liste_projets).append('<div class="un_projet">'
 			+'<span class="nom_projet">'
 			+data.projets[0].nom + '</span>'
