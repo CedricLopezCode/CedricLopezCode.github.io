@@ -73,6 +73,12 @@
 			"deja_etudie": 1
 		},
 		{
+			"skill": "springboot",
+			"maitrise": 60,
+			"image": "src_ico/spring-mvc-boot-application.ico",
+			"deja_etudie": 1
+		},
+		{
 			"skill": "algo",
 			"maitrise": 100,
 			"image": "src_ico/Algo1.jpg",
@@ -109,15 +115,9 @@
 			"deja_etudie": 0
 		},
 		{
-			"skill": "springboot",
-			"maitrise": 0,
-			"image": "src_ico/spring-mvc-boot-application.ico",
-			"deja_etudie": 0
-		},
-		{
 			"skill": "angular",
 			"maitrise": 0,
-			"image": "src_ico/angular.ico",
+			"image": "src_ico/angular_logo_icon_169595.ico",
 			"deja_etudie": 0
 		}
 	],
