@@ -79,6 +79,12 @@
 			"deja_etudie": 1
 		},
 		{
+			"skill": "angular",
+			"maitrise": 40,
+			"image": "src_ico/angular_logo_icon_169595.ico",
+			"deja_etudie": 1
+		},
+		{
 			"skill": "algo",
 			"maitrise": 100,
 			"image": "src_ico/Algo1.jpg",
@@ -110,15 +116,9 @@
 		},
 		{
 			"skill": "mvc",
-			"maitrise": 0,
+			"maitrise": 50,
 			"image": "src_ico/mvcnew.ico",
-			"deja_etudie": 0
-		},
-		{
-			"skill": "angular",
-			"maitrise": 0,
-			"image": "src_ico/angular_logo_icon_169595.ico",
-			"deja_etudie": 0
+			"deja_etudie": 1
 		}
 	],
 	"projets" : [ 
