@@ -169,6 +169,7 @@ function afficher_projets(){
 			+data.projets[4].tech2+'"></data>'
 			+'<data class="une_tech"><img src="'
 			+data.projets[4].tech3+'"></data>'
+			+'<data class="une_tech"><img src="'
 			+data.projets[4].tech4+'"></data>'
 			+'<data class="une_tech"><img src="'
 			+data.projets[4].tech5+'"></data>'
@@ -189,7 +190,7 @@ function afficher_projets(){
 		$(liste_projets).append('<div class="un_projet">'
 			+'<span class="nom_projet">'
 			+data.projets[6].nom + '</span>'
-
+			
 			+'<data class="une_tech"><img src="'
 			+data.projets[6].tech1+'"></data>'
 			+'<data class="une_tech"><img src="'
