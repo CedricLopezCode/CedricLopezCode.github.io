@@ -74,13 +74,13 @@
 		},
 		{
 			"skill": "springboot",
-			"maitrise": 70,
+			"maitrise": 60,
 			"image": "src_ico/spring-mvc-boot-application.ico",
 			"deja_etudie": 1
 		},
 		{
 			"skill": "angular",
-			"maitrise": 40,
+			"maitrise": 50,
 			"image": "src_ico/angular_logo_icon_169595.ico",
 			"deja_etudie": 1
 		},
