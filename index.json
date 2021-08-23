@@ -121,12 +121,23 @@
 			"deja_etudie": 1
 		}
 	],
+
 	"projets" : [ 
 		{
 			"nom": "Site de révision",
 			"tech1": "src_ico/html_plain_wordmark_logo_icon_146476.ico",
 			"tech2": "src_ico/css_plain_wordmark_logo_icon_146574.ico",
 			"tech3": "src_ico/javascript.ico"
+		},
+		{
+			"nom": "App de révision",
+			"tech1": "src_ico/flutter_icon_130599.ico",
+			"tech2": "src_ico/dart-480.ico"
+		},
+		{
+			"nom": "Site de chimie",
+			"tech1": "src_ico/spring3.ico",
+			"tech2": "src_ico/angular_logo_icon_169595.ico"
 		},
 		{
 			"nom": "Portfolio",
