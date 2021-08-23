@@ -19,6 +19,12 @@
 			"deja_etudie": 1
 		},
 		{
+			"skill": "nodsjs",
+			"maitrise": 60,
+			"image": "src_ico/file_type_node_icon_130301.ico",
+			"deja_etudie": 1
+		},
+		{
 			"skill": "bootrap",
 			"maitrise": 90,
 			"image": "src_ico/bootstrap_plain_wordmark_logo_icon_146620.ico",
@@ -50,7 +56,7 @@
 		},
 		{
 			"skill": "uml",
-			"maitrise": 50,
+			"maitrise": 80,
 			"image": "src_ico/uml-tutorial.ico",
 			"deja_etudie": 1
 		},
@@ -82,6 +88,18 @@
 			"skill": "angular",
 			"maitrise": 50,
 			"image": "src_ico/angular_logo_icon_169595.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "dart",
+			"maitrise": 80,
+			"image": "src_ico/dart-480.ico",
+			"deja_etudie": 1
+		},
+		{
+			"skill": "flutter",
+			"maitrise": 70,
+			"image": "src_ico/flutter_icon_130599.ico",
 			"deja_etudie": 1
 		},
 		{
