@@ -65,8 +65,10 @@ body{
 	text-align: center;
 }
 #titre_projets_perso{
-	background: rgba(0, 255, 0, 0.2);
-	color: lime;
+	/*background: rgba(0, 255, 0, 0.2);
+	color: lime;*/
+	background: rgba(0, 0, 255, 0.2);
+	color: aqua;
 }
 #titre_competences_acquises{
 	background: rgba(255, 0, 0, 0.2);

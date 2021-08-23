@@ -168,13 +168,13 @@ function afficher_projets(){
 			+'<data class="une_tech"><img src="'
 			+data.projets[4].tech2+'"></data>'
 			+'<data class="une_tech"><img src="'
-			+data.projets[4].tech1+'"></data>'
+			+data.projets[4].tech3+'"></data>'
 			+'<data class="une_tech"><img src="'
-			+data.projets[4].tech2+'"></data>'
+			+data.projets[4].tech4+'"></data>'
 			+'<data class="une_tech"><img src="'
-			+data.projets[4].tech1+'"></data>'
+			+data.projets[4].tech5+'"></data>'
 			+'<data class="une_tech"><img src="'
-			+data.projets[4].tech2+'"></data>'
+			+data.projets[4].tech6+'"></data>'
 
 		+'</div>');
 		$(liste_projets).append('<div class="un_projet">'
