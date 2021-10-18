@@ -145,8 +145,6 @@ function afficher_projets(){
 			+data.projets[2].tech1+'"></data>'
 			+'<data class="une_tech"><img src="'
 			+data.projets[2].tech2+'"></data>'
-			+'<data class="une_tech"><img src="'
-			+data.projets[2].tech3+'"></data>'
 
 		+'</div>');
 		$(liste_projets).append('<div class="un_projet">'
