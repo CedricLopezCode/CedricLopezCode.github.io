@@ -91,6 +91,12 @@
 			"deja_etudie": 1
 		},
 		{
+			"skill": "react",
+			"maitrise": 6,
+			"image": "src_ico/react_original_wordmark_logo_icon_146375.ico",
+			"deja_etudie": 1
+		},
+		{
 			"skill": "dart",
 			"maitrise": 80,
 			"image": "src_ico/dart-480.ico",
